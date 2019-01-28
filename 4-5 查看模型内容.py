@@ -11,7 +11,7 @@ from tensorflow.python.tools.inspect_checkpoint import print_tensors_in_checkpoi
 
 
 savedir = "./log"
-print_tensors_in_checkpoint_file(savedir+"linermodel.cpkt", None, True)
+print_tensors_in_checkpoint_file(savedir+"linermodel.ckpt", None, True)
 # print_tensors_in_checkpoint_file(os.path.join(savedir, "linermodel.ckpt"), "weight", False)
 
 
