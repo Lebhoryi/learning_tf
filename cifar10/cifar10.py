@@ -395,3 +395,6 @@ def maybe_download_and_extract():
   extracted_dir_path = os.path.join(dest_directory, 'cifar-10-batches-bin')
   if not os.path.exists(extracted_dir_path):
     tarfile.open(filepath, 'r:gz').extractall(dest_directory)
+
+if __name__ == "__main__":
+    maybe_download_and_extract()
